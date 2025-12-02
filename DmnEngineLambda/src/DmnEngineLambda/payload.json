@@ -1,0 +1,7 @@
+{
+    "DmnXml": "<definitions xmlns=\"https://www.omg.org/spec/DMN/20191111/MODEL/\" namespace=\"http://camunda.org/schema/1.0/dmn\" name=\"definitions\" id=\"definitions\"><inputData id=\"input_name\" name=\"name\"><variable name=\"name\" typeRef=\"string\"/></inputData><decision id=\"decision\" name=\"Greeting\"><variable name=\"greeting\" typeRef=\"string\"/><informationRequirement><requiredInput href=\"#input_name\"/></informationRequirement><literalExpression><text>\"Hello \" + name</text></literalExpression></decision></definitions>",
+    "DecisionName": "Greeting",
+    "Inputs": {
+        "name": "Tester"
+    }
+}

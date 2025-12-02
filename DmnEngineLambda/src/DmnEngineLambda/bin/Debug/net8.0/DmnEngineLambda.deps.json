@@ -1,0 +1,156 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DmnEngineLambda/1.0.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "2.7.0",
+          "Amazon.Lambda.Serialization.SystemTextJson": "2.4.4",
+          "net.adamec.lib.common.dmn.engine": "1.1.1"
+        },
+        "runtime": {
+          "DmnEngineLambda.dll": {}
+        }
+      },
+      "Amazon.Lambda.Core/2.7.0": {
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.4.4": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "2.7.0"
+        },
+        "runtime": {
+          "lib/net8.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "DynamicExpresso.Core/2.12.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/DynamicExpresso.Core.dll": {
+            "assemblyVersion": "2.12.0.0",
+            "fileVersion": "2.12.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "net.adamec.lib.common.dmn.engine/1.1.1": {
+        "dependencies": {
+          "DynamicExpresso.Core": "2.12.0",
+          "NLog": "4.7.15",
+          "RadCommons.core": "2.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/net.adamec.lib.common.dmn.engine.dll": {
+            "assemblyVersion": "1.1.1.1385",
+            "fileVersion": "1.1.1.1385"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "NLog/4.7.15": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.15.867"
+          }
+        }
+      },
+      "RadCommons.core/2.0.1": {
+        "dependencies": {
+          "NLog": "4.7.15",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/net.adamec.lib.common.core.dll": {
+            "assemblyVersion": "2.0.1.551",
+            "fileVersion": "2.0.1.551"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DmnEngineLambda/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Lambda.Core/2.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MUl+uIpB00yE8TwmW4ICEE3hd7DEgIWu94a7sFtAHoKz+skS52splHDxN/syId2E5STSYHCertdJSv7Qg1JdSA==",
+      "path": "amazon.lambda.core/2.7.0",
+      "hashPath": "amazon.lambda.core.2.7.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.4.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iv/cvqFuZ3v3+NFDyof0IJZvU+4kdpzOe3pWSBwp9HB885I+D32WQxuid9V4GnvRynER9XnWMPaDmImX8qH5cA==",
+      "path": "amazon.lambda.serialization.systemtextjson/2.4.4",
+      "hashPath": "amazon.lambda.serialization.systemtextjson.2.4.4.nupkg.sha512"
+    },
+    "DynamicExpresso.Core/2.12.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kcapXLYymUP+a4d1NhdySqxE0eZ/5k7KMQczxvqdl1f1gnCUOCGtshrCU5H+Dh+dx5Y1QcHaTaoNdytXI87Vrw==",
+      "path": "dynamicexpresso.core/2.12.0",
+      "hashPath": "dynamicexpresso.core.2.12.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "net.adamec.lib.common.dmn.engine/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nd78WOyWaYsnfIpaw8WsS3SfyEh9trs08M10YI1hPzxGSfhfoUNp2tchaHI4xt5knNPO3ol0fZsfI6XaqU5tag==",
+      "path": "net.adamec.lib.common.dmn.engine/1.1.1",
+      "hashPath": "net.adamec.lib.common.dmn.engine.1.1.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "NLog/4.7.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vXMmsK17hXnMsKd8BdCrJzvb8JMT0+cPgBGRfnqcXIb6y8b6RMIZexO4hMhQgifcTHgU7dbubvCR5A5wX6Ne+A==",
+      "path": "nlog/4.7.15",
+      "hashPath": "nlog.4.7.15.nupkg.sha512"
+    },
+    "RadCommons.core/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TDFF8e+nEBu3hwlPJwCvR1N2y8UDu2W+F4OhvBgJoXNj46JMIrEqlaa2EEr8BVgdXPS88GJSPEmWhdcbn2rXoQ==",
+      "path": "radcommons.core/2.0.1",
+      "hashPath": "radcommons.core.2.0.1.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "ldm6/97tr6E=",
+  "success": true,
+  "projectFilePath": "/Users/divyampant/Documents/Projects/dmn-engine/DmnEngineLambda/src/DmnEngineLambda/DmnEngineLambda.csproj",
+  "expectedPackageFiles": [
+    "/Users/divyampant/.nuget/packages/amazon.lambda.core/2.7.0/amazon.lambda.core.2.7.0.nupkg.sha512",
+    "/Users/divyampant/.nuget/packages/amazon.lambda.serialization.systemtextjson/2.4.4/amazon.lambda.serialization.systemtextjson.2.4.4.nupkg.sha512",
+    "/Users/divyampant/.nuget/packages/dynamicexpresso.core/2.12.0/dynamicexpresso.core.2.12.0.nupkg.sha512",
+    "/Users/divyampant/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/divyampant/.nuget/packages/net.adamec.lib.common.dmn.engine/1.1.1/net.adamec.lib.common.dmn.engine.1.1.1.nupkg.sha512",
+    "/Users/divyampant/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
+    "/Users/divyampant/.nuget/packages/nlog/4.7.15/nlog.4.7.15.nupkg.sha512",
+    "/Users/divyampant/.nuget/packages/radcommons.core/2.0.1/radcommons.core.2.0.1.nupkg.sha512",
+    "/Users/divyampant/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/divyampant/.nuget/packages/microsoft.netcore.app.runtime.linux-x64/8.0.11/microsoft.netcore.app.runtime.linux-x64.8.0.11.nupkg.sha512",
+    "/Users/divyampant/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
+    "/Users/divyampant/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-x64/8.0.11/microsoft.aspnetcore.app.runtime.linux-x64.8.0.11.nupkg.sha512",
+    "/Users/divyampant/.nuget/packages/microsoft.netcore.app.crossgen2.osx-arm64/8.0.11/microsoft.netcore.app.crossgen2.osx-arm64.8.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

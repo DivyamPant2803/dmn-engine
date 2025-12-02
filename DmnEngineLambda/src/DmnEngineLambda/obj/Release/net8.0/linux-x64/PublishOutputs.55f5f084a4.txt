@@ -1,0 +1,11 @@
+/Users/divyampant/Documents/Projects/dmn-engine/DmnEngineLambda/src/DmnEngineLambda/bin/Release/net8.0/publish/DmnEngineLambda.deps.json
+/Users/divyampant/Documents/Projects/dmn-engine/DmnEngineLambda/src/DmnEngineLambda/bin/Release/net8.0/publish/DmnEngineLambda.runtimeconfig.json
+/Users/divyampant/Documents/Projects/dmn-engine/DmnEngineLambda/src/DmnEngineLambda/bin/Release/net8.0/publish/DmnEngineLambda.pdb
+/Users/divyampant/Documents/Projects/dmn-engine/DmnEngineLambda/src/DmnEngineLambda/bin/Release/net8.0/publish/Amazon.Lambda.Core.dll
+/Users/divyampant/Documents/Projects/dmn-engine/DmnEngineLambda/src/DmnEngineLambda/bin/Release/net8.0/publish/Amazon.Lambda.Serialization.SystemTextJson.dll
+/Users/divyampant/Documents/Projects/dmn-engine/DmnEngineLambda/src/DmnEngineLambda/bin/Release/net8.0/publish/DynamicExpresso.Core.dll
+/Users/divyampant/Documents/Projects/dmn-engine/DmnEngineLambda/src/DmnEngineLambda/bin/Release/net8.0/publish/net.adamec.lib.common.dmn.engine.dll
+/Users/divyampant/Documents/Projects/dmn-engine/DmnEngineLambda/src/DmnEngineLambda/bin/Release/net8.0/publish/Newtonsoft.Json.dll
+/Users/divyampant/Documents/Projects/dmn-engine/DmnEngineLambda/src/DmnEngineLambda/bin/Release/net8.0/publish/NLog.dll
+/Users/divyampant/Documents/Projects/dmn-engine/DmnEngineLambda/src/DmnEngineLambda/bin/Release/net8.0/publish/net.adamec.lib.common.core.dll
+/Users/divyampant/Documents/Projects/dmn-engine/DmnEngineLambda/src/DmnEngineLambda/bin/Release/net8.0/publish/DmnEngineLambda.dll

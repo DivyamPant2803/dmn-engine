@@ -12,7 +12,7 @@ public class Function
 {
     public object FunctionHandler(DmnRequest req, ILambdaContext context)
     {
-        context.Logger.LogInformation("Received DMN execution request.");
+        context.Logger.LogInformation("Received DMN request.");
 
         if (string.IsNullOrWhiteSpace(req.DmnXml))
         {
@@ -20,17 +20,23 @@ public class Function
             return new { success = false, error = "DMN XML is required." };
         }
 
-        if (string.IsNullOrWhiteSpace(req.DecisionName))
-        {
-            context.Logger.LogError("Decision Name is empty.");
-            return new { success = false, error = "Decision Name is required." };
-        }
-
         try
         {
             context.Logger.LogInformation($"Parsing DMN XML (Length: {req.DmnXml.Length})...");
             // Defaulting to 1.3ext as it is the most capable parser in the library
             var model = DmnParser.ParseString13ext(req.DmnXml);
+            
+            if (req.ValidateOnly)
+            {
+                context.Logger.LogInformation("Validation successful.");
+                return new { success = true, message = "DMN XML is valid." };
+            }
+
+            if (string.IsNullOrWhiteSpace(req.DecisionName))
+            {
+                context.Logger.LogError("Decision Name is empty.");
+                return new { success = false, error = "Decision Name is required for execution." };
+            }
             
             context.Logger.LogInformation("Creating DMN Definition...");
             var def = DmnDefinitionFactory.CreateDmnDefinition(model);
@@ -60,7 +66,7 @@ public class Function
         }
         catch (Exception ex)
         {
-            context.Logger.LogError($"Error executing DMN: {ex.Message}");
+            context.Logger.LogError($"Error processing DMN: {ex.Message}");
             context.Logger.LogError(ex.StackTrace);
             return new { success = false, error = ex.Message };
         }
@@ -96,5 +102,6 @@ public class Function
 public record DmnRequest(
     string DmnXml,
     string DecisionName,
-    Dictionary<string, object>? Inputs
+    Dictionary<string, object>? Inputs,
+    bool ValidateOnly = false
 );
